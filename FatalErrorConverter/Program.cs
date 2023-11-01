@@ -33,7 +33,6 @@ class AnsiCodeGenerator
         File.WriteAllText("out.txt", result);
 
         Console.WriteLine(result);
-        Console.ReadKey();
     }
 
     public static string GenerateAnsiBlock(string input)
